@@ -1,0 +1,10 @@
+.register-page {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-page h1 {
+    color: black;
+    font-size: 30px;
+    /* font-weight: bold; */
+}

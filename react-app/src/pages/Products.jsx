@@ -58,20 +58,33 @@ function Products(){
     }
   ];
 
-async function getProducts(){
-try {
-  const response=await axios.get("/products/all");
-if(response.data.success){
-
-}
 
 
-} catch (error) {
-  console.log(error);
-}
 
-}
-getProducts();
+
+// async function getProducts(){
+// try {
+//   const response=await axios.get("/products/all");
+// if(response.data.success){
+
+// }
+
+
+// } catch (error) {
+//   console.log(error);
+// }
+
+// }
+// getProducts();
+
+
+
+
+
+
+
+
+
 
 
 
