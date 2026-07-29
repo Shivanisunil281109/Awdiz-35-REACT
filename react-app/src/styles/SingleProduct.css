@@ -1,0 +1,22 @@
+.single-product-page{
+    width: 100%;
+    /* min-height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.single-product-page h1{
+    font-size: 30px;
+    font-weight: bold;
+    /* color: #111827; */
+    margin-top: 10px;
+}
+
+.single-product-page h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}

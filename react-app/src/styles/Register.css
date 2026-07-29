@@ -1,10 +1,63 @@
 .register-page {
     text-align: center;
     margin-top: 10px;
+    align-items: center;
+      justify-content:center;
+      display: flex;
 }
 
 .register-page h1 {
     color: black;
     font-size: 30px;
     /* font-weight: bold; */
+}
+/* .register-page form{ */
+    /* width:380px; */
+    /* background:#fff; */
+    /* padding:30px; */
+    /* border:2px solid #ddd; */
+    /* border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15); */
+    
+/* } */
+
+ /* .register-page label{
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+   
+}  */
+
+/* .register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="password"]{
+    width:100%;
+    padding:10px;
+    margin:8px 0 18px; */
+    /* border:1px solid #bbb;
+    border-radius:6px; */
+    /* font-size:16px;
+    box-sizing:border-box; */
+/* } */
+
+
+/* .register-page input[type="submit"]{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    cursor:pointer;
+}   */
+
+
+
+.register-page label{
+    display: block;
+    text-align: left;
+    /* font-size: 18px;
+    font-weight: bold; */
+    /* margin-bottom: 2px; */
 }

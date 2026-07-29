@@ -1,0 +1,11 @@
+.notfound-page {
+    display: flex;
+    justify-content: center;
+
+    min-height: 80vh;
+}
+
+.notfound-page h1 {
+    font-size: 20px;
+    /* font-weight: bold; */
+}
