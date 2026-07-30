@@ -181,13 +181,23 @@ ol {
 }
 
 button{
+ 
     padding:2px 8px;
     margin:2px 0;
     cursor:pointer;
     font-size:14px;
+    justify-content: center;
 }
 
 
+
+/* button{
+    display: block;
+     margin: 10px auto;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 14px;
+} */
 /* ===========================
    Inputs
 =========================== */

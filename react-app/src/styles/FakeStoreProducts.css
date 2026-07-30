@@ -1,0 +1,26 @@
+.fake-store-page{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fake-store-page h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fake-store-products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+
+.product-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+.useeffect-page{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.useeffect-page button{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 12px;
+    font-size: 18px;
+}

@@ -10,9 +10,15 @@ return(
 <div className="Navbarstyle">
 
       <Link to="/">Home</Link>
+       <Link to="/FakeStoreProducts">FakeStoreProducts</Link>
       <Link to="/products">Products</Link>
       <Link to="/login">Login</Link>
       <Link to="/register">Register</Link>
+      
+
+
+
+
     </div>
 
 )

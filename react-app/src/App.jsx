@@ -11,8 +11,8 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import SingleProduct from "./pages/SingleProduct";
 import UseState from "./Practice/UseState";
-
-
+import UseEffect from "./Practice/UseEffect";
+import FakeStoreProducts from "./Practice/FakeStoreProducts";
 
 function App() {
   return (
@@ -32,8 +32,12 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<NotFound />} />
+      
+
         <Route path="/UseState" element={<UseState/>} />
-        
+        <Route path="/UseEffect" element={< UseEffect/>} />
+       <Route path="/FakeStoreProducts"element={<FakeStoreProducts/>}/>
+
       </Routes>
     </>
   );
