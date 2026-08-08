@@ -1,0 +1,21 @@
+.usememo-page{
+    text-align: center;
+
+}
+
+.useMemo-page button{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 12px;
+    font-size: 18px;
+}
+
+.useMemo-page h2{
+    font-size: 30px;
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
