@@ -16,7 +16,7 @@ import UseMemo from "./Practice/UseMemo";
 import UseCallback from "./Practice/UseCallback";
 import UseRef from "./Practice/UseRef";
 import UseReducer from "./Practice/UseReducer";
-
+import ContextCounter from "./Practice/ContextCounter";
 
 
 function App() {
@@ -43,6 +43,10 @@ function App() {
           <Route path="/UseCallback" element={<UseCallback/>}/>
           <Route path="/UseRef" element={<UseRef/>}/>
       <Route path="/UseReducer" element={<UseReducer/>}/>
+  <Route path="/ContextCounter" element={<ContextCounter/>}/>
+
+
+
 
       </Routes>
     </>
