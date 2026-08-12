@@ -1,5 +1,4 @@
 
-
 import{Routes,Route} from "react-router";
 // import "./App.css";
 // import "./Navbar.css";
@@ -15,7 +14,8 @@ import UseEffect from "./Practice/UseEffect";
 import FakeStoreProducts from "./Practice/FakeStoreProducts";
 import UseMemo from "./Practice/UseMemo";
 import UseCallback from "./Practice/UseCallback";
-
+import UseRef from "./Practice/UseRef";
+import UseReducer from "./Practice/UseReducer";
 
 
 
@@ -28,11 +28,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
 
-         
 
   <Route path="/single-product/:brand/:id" element={<SingleProduct />} />
-
-
 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
@@ -44,6 +41,8 @@ function App() {
        <Route path="/FakeStoreProducts"element={<FakeStoreProducts/>}/>
         <Route path="/useMemo" element={<UseMemo />} />
           <Route path="/UseCallback" element={<UseCallback/>}/>
+          <Route path="/UseRef" element={<UseRef/>}/>
+      <Route path="/UseReducer" element={<UseReducer/>}/>
 
       </Routes>
     </>
