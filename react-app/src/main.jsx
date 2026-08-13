@@ -5,6 +5,7 @@ import App from './App.jsx'
 import{BrowserRouter} from 'react-router';
 
 import CounterContextProvider from "./contexts/CounterContext.jsx";
+import ThemeContextProvider from "./contexts/ThemeContext.jsx";
 
 createRoot(document.getElementById('root')).render(
 
@@ -14,10 +15,13 @@ createRoot(document.getElementById('root')).render(
 
   <StrictMode>
 
+<ThemeContextProvider> 
 <CounterContextProvider> 
     <App />
 
  </CounterContextProvider>
+
+ </ThemeContextProvider>
   </StrictMode>
 
 </BrowserRouter>
