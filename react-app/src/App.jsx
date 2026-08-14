@@ -18,6 +18,8 @@ import UseRef from "./Practice/UseRef";
 import UseReducer from "./Practice/UseReducer";
 import ContextCounter from "./Practice/ContextCounter";
 import Theme from "./Practice/Theme";
+import ReduxCounter from "./Practice/ReduxCounter";
+
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
   <Route path="/ContextCounter" element={<ContextCounter/>}/>
 
 <Route path="/theme" element={<Theme />} />
-
+<Route path="/ReduxCounter" element={<ReduxCounter/>}/>
 
       </Routes>
     </>
