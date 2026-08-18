@@ -19,7 +19,7 @@ import UseReducer from "./Practice/UseReducer";
 import ContextCounter from "./Practice/ContextCounter";
 import Theme from "./Practice/Theme";
 import ReduxCounter from "./Practice/ReduxCounter";
-
+import IDCard from "./components/IDCard";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/products" element={<Products />} />
 
 
@@ -49,6 +49,9 @@ function App() {
 
 <Route path="/theme" element={<Theme />} />
 <Route path="/ReduxCounter" element={<ReduxCounter/>}/>
+
+<Route path="/IDCard" element={<IDCard/>}/>
+
 
       </Routes>
     </>

@@ -1,14 +1,14 @@
 import "../styles/Home.css";
-
+import toast from "react-hot-toast";
 
 function Home(){
-const isUserLoggedIN = true;
+const isUserLoggedIN = false;
 if( isUserLoggedIN){
 
 return<h1> Logged in Successful.</h1>
+
+
 }
-
-
 
 
 const isAdmin =false;
@@ -20,10 +20,17 @@ return (
 
     {<h1 className="home-heading">Please Login.  </h1> }
 
+<button
+    className="toast-btn"
+    onClick={() => toast.success("Hello")}
+>
+    Toast
+</button>
+
+
 </div>
 
 );
-
 
 }
 export default Home;
